@@ -1,8 +1,5 @@
-# Tristani, Nick, Tienany, Aza
-# CISC 240
-# Project - Final Version
-# Note from the team: To run this code you need all the files from attached .zip folder
-
+# Building Tomorrow's Software
+# PyGame 
 
 # Use space bar to jump
 # Use arrows to move right and left
