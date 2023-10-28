@@ -1,0 +1,13 @@
+"CONCAT("Vendor ", vendor_name, " from ", vendor_city,
+       ", ", vendor_state, " still owes ", SUM(invoice_total), ".")"
+"Vendor Malloy Lithographing Inc from Ann Arbor, MI still owes 119892.41."
+"Vendor United Parcel Service from Reno, NV still owes 23177.96."
+"Vendor Data Reproductions Corp from Auburn Hills, MI still owes 21927.31."
+"Vendor Digital Dreamworks from Fresno, CA still owes 7125.34."
+"Vendor Zylka Design from Fresno, CA still owes 6940.25."
+"Vendor Bertelsmann Industry Svcs. Inc from Valencia, CA still owes 6940.25."
+"Vendor Yesmed, Inc from Fresno, CA still owes 4901.26."
+"Vendor Federal Express Corporation from Memphis, TN still owes 4378.02."
+"Vendor Computerworld from San Francisco, CA still owes 2433.00."
+"Vendor Cahners Publishing Company from The Lake, NV still owes 2184.50."
+"Vendor Ingram from Dallas, TX still owes 2154.42."
