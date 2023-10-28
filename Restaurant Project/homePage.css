@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.homePage {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/qvevri.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.logo {
+    width: 35%;
+    cursor: pointer;
+    margin-top: 15%;
+}
+
+.menuIcon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+/* .menu-text h1 {
+    color: aliceblue;
+    font-size: 60px;
+} */
+
+h4 {
+    font-size: 25px;
+    color: rgb(233, 239, 243);
+    text-align: center;
+    text-shadow: 0 0 5px #999;
+}
+
+p {
+    color: aliceblue;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button {
+    width: 100px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card {
+    width: 30%;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card1 {
+    background-image: url(images/sufra_one.jpg);
+}
+
+.card2 {
+    background-image: url(images/khinkali.jpg);
+}
+
+.card3 {
+    background-image: url(images/khachapuri.jpg);
+}
+
+.card4 {
+    background-image: url(images/mwvadi.jpg);
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 40px 0;
+    background-color: rgb(229 202 35 / 65%);
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: rgb(12, 12, 12);
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.65;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+    color: green;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover {
+    opacity: 1;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(21, 60, 119);
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.menu-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-heading span {
+    color: #ccc;
+}
+
+.menu-heading h3 {
+    font-size: 2.4rem;
+    color: rgb(36, 34, 34);
+    font-weight: 600;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+
+.menu-box {
+    width: 350px;
+    background-color: #ffff;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+.menu-img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: #ac9900c7;
+}
+
+.blog-text span {
+    color: rgb(226, 93, 17);
+    font-size: 0.9rem;
+}
+
+.menu-text .description {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(126 123 136);
+}
+
+.menu-text .description:hover {
+    color: rgb(196, 60, 112);
+    transition: all ease 0.3s;
+}
+
+.menu-text p {
+    color: rgb(157 132 126);
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
+.menu-text a {
+    color: rgb(32, 25, 25);
+    text-decoration: none;
+}
+
+.menu-text a:hover {
+    color: rgb(40, 27, 70);
+    transform: all ease 0.3s;
+}
+
+.contact-title {
+    text-align: center;
+    background-size: cover;
+    font-family: sans-serif;
+    color: #34568B;
+    margin-top: 40px;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h2 {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.form-control {
+    margin-top: 40px;
+    transition: all 4s ease-in-out;
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    color: #6B5B95;
+}
+
+.contact-form input {
+    height: 45px;
+}
+
+.contact-form .submit {
+    background: #34568B;
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    border-radius: 20px;
+
+}
+
+form .submit:hover {
+    cursor: pointer;
+}
+
+#loggedIn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(243, 217, 217);
+    
+}
+
+#loggedIn {
+    margin-top: 20px;
+    color: #fff;
+    border: 1px solid rgb(88 72 72);
+    border-radius: 20px;
+    background-color: #483e3e;
+    padding: 9px;
+
+}
